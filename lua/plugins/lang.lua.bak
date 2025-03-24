@@ -1,0 +1,9 @@
+return {
+  "neovim/nvim-lspconfig",
+  opts = {
+    servers = {
+      vtsls = { enabled = true },
+      nil_ls = { enabled = true },
+    },
+  },
+}
