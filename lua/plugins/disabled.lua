@@ -1,6 +1,6 @@
 return {
-  { "williamboman/mason.nvim", enabled = false },
-  { "williamboman/mason-lspconfig.nvim", enabled = false },
+  { "williamboman/mason.nvim", enabled = true },
+  { "williamboman/mason-lspconfig.nvim", enabled = true },
   {
     "nvim-treesitter/nvim-treesitter",
     enabled = true,
